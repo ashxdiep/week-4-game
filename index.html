@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pokemon Battle!</title>
+  <!-- viewport -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap File -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+ <!-- CSS style -->
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <!-- JQuery -->
+  <script src="https://code.jquery.com/jquery.js"></script>
+
+  <link href="https://fonts.googleapis.com/css?family=Electrolize" rel="stylesheet">
+
+</head>
+
+
+<body>
+  <div class= "container">
+    <!-- Row 1 -->
+    <div class= "row Vitreebel">
+
+      <!-- Row 1, Column 1 -->
+      <div class = "col-md-2">
+        <img src= "assets/images/pixelvitreebel.jpg" class= "pixel">
+      </div>
+      <!-- Row 1, Column 2: Has two rows in column  -->
+      <div class = "col-md-5">
+
+        <div class= "row name">
+          VITREEBEL
+        </div>
+
+        <div class= "row progress1">
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" aria-valuenow="100"
+            aria-valuemin="0" aria-valuemax="100" style="width:100%">
+            100
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Row 1, Column 3: Has two rows in column  -->
+      <div class = "col-md-5">
+
+        <div class= "row level">
+          :L47
+        </div>
+
+        <div class= "row life">
+          148/148
+        </div>
+      </div>
+    </div>
+
+
+      <!-- Row 2 -->
+      <div class= "row dugtrio">
+
+        <!-- Row 2, Column 1 -->
+        <div class = "col-md-2">
+          <img src= "assets/images/dugtriopixel.png" class= "pixel">
+        </div>
+        <!-- Row 2, Column 2: Has two rows in column  -->
+        <div class = "col-md-5">
+
+          <div class= "row name">
+            DUGTRIO
+          </div>
+
+          <div class= "row progress1">
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" aria-valuenow="100"
+              aria-valuemin="0" aria-valuemax="100" style="width:100%">
+              100
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Row 2, Column 3: Has two rows in column  -->
+        <div class = "col-md-5">
+
+          <div class= "row level">
+            :L47
+          </div>
+
+          <div class= "row life">
+            148/148
+          </div>
+        </div>
+      </div>
+
+      <!-- Row 3  -->
+      <div class= "row golduck">
+
+        <!-- Row 3, Column 1 -->
+        <div class = "col-md-2">
+          <img src= "assets/images/golduck.jpg" class= "pixel">
+        </div>
+        <!-- Row 3, Column 2: Has two rows in column  -->
+        <div class = "col-md-5">
+
+          <div class= "row name">
+            GOLDUCK
+          </div>
+
+          <div class= "row progress1">
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" aria-valuenow="100"
+              aria-valuemin="0" aria-valuemax="100" style="width:100%">
+              100
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Row 3, Column 3: Has two rows in column  -->
+        <div class = "col-md-5">
+
+          <div class= "row level">
+            :L47
+          </div>
+
+          <div class= "row life">
+            148/148
+          </div>
+        </div>
+      </div>
+
+      <!-- Row 4 -->
+      <div class= "row ninetales">
+
+        <!-- Row 3, Column 1 -->
+        <div class = "col-md-2">
+          <img src= "assets/images/ninetalespixel.png" class= "pixel">
+        </div>
+        <!-- Row 3, Column 2: Has two rows in column  -->
+        <div class = "col-md-5">
+
+          <div class= "row name">
+            NINETALES
+          </div>
+
+          <div class= "row progress1">
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" aria-valuenow="100"
+              aria-valuemin="0" aria-valuemax="100" style="width:100%">
+              100
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Row 3, Column 3: Has two rows in column  -->
+        <div class = "col-md-5">
+
+          <div class= "row level">
+            :L47
+          </div>
+
+          <div class= "row life">
+            148/148
+          </div>
+        </div>
+      </div>
+
+      <!-- Rows during battle  -->
+      <div class = "row battle" >
+        <div class = "col-md-6 opponent">
+          <h1> OPPONENT</h1>
+          <p>: L47 </p>
+          HP: <div class="progress">
+            <div class="progress-bar pbopp" role="progressbar" aria-valuenow="100"
+            aria-valuemin="0" aria-valuemax="100" style="width:100%">
+
+            </div>
+          </div>
+        </div>
+
+        <div class= "col-md-6 opponentpic">
+
+        </div>
+
+      </div>
+      <div class = "row battle" >
+        <div class= "col-md-6 choicepic">
+
+        </div>
+
+        <div class = "col-md-6 choice">
+          <h2>YOUR POKEMON</h2>
+          <p>: L47 </p>
+          HP: <div class="progress">
+            <div class="progress-bar pbchoice" role="progressbar" aria-valuenow="100"
+            aria-valuemin="0" aria-valuemax="100" style="width:100%">
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <footer class= "firstfooter"> Choose your Pokemon! </footer>
+      <footer class= "secondfooter container battle">
+
+        <div class = "row">
+          <div class = "col-md-8 bigbox">
+
+          </div>
+          <div class= "col-md-4 options">
+            <p class = "fight" >Fight!</p>
+            <p class= "run">Run!</p>
+          </div>
+        </div>
+
+      </footer>
+
+  </div>
+
+</body>
+<script type="text/javascript" src= "assets/javascript/game.js"></script>
+
+</html>

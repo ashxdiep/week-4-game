@@ -1,0 +1,60 @@
+.container{
+  font-family: 'Electrolize', sans-serif;
+
+}
+
+.name{
+  font-size: 30px;
+  margin-top: 10px;
+  font-weight: bolder;
+}
+
+
+footer{
+height: 200px;
+font-size: 50px;
+border-style: groove;
+border-color: black;
+border-radius: 40px;
+border-width: 20px;
+padding: 10px;
+}
+
+.level{
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.life{
+  font-size: 25px;
+  font-weight:bold;
+}
+
+.startgame{
+  font-size: 20px;
+}
+
+.battle {
+  display: none;
+}
+
+.options{
+  border-left-style: dotted;
+  border-left-color: black;
+  border-left-width: 5px;
+  bottom: 20px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.choicepic{
+  padding-left: 20%;
+}
+
+.opponentpic{
+  padding-left: 20%;
+}
+
+.secondfooter{
+  font-size: 30px;
+}
